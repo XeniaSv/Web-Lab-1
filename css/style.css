@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Infant:wght@700&family=Playfair+Display&display=swap');
+
+
+body {
+    position: relative;
+    width: auto;
+    height: 2672px;
+
+    background-color: #CBC7A4;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 414px;
+    left: 0px;
+    top: 37px;
+}
+
+.headerSection {
+    position: absolute;
+    width: 1440px;
+    height: 374px;
+    left: 0px;
+    top: 20px;
+
+    background: #FFF7E1;
+}
+
+.icon {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 288px;
+    top: 37px;
+}
+
+.headerH1 {
+    position: absolute;
+    width: 467px;
+    height: 55px;
+    left: 641px;
+    top: 35px;
+
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #6D594A;
+}
+
+.headerQ {
+    position: absolute;
+    width: 573px;
+    height: 68px;
+    left: 588px;
+    top: 269px;
+
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #6D594A;
+}
+
+.headerNav {
+    position: absolute;
+    width: 403px;
+    height: 70px;
+    left: 673px;
+    top: 164px;
+}
+
+.iconGmail {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.iconGithub {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 110px;
+}
+
+.iconVk {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 220px;
+}
+
+.iconTelegram {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 330px;    
+}
+
+main{
+    position: absolute;
+    width: 1208px;
+    height: 2179px;
+    left: 117px;
+    top: 460px;
+}
+
+.descriptionBlock {
+    position: absolute;
+    width: 716px;
+    height: 472px;
+    left: 23px;
+    top: 31px;
+
+    background: #FFF7E1;
+}
+
+.descriptionH2 {
+    position: absolute;
+    width: 392px;
+    height: 46px;
+    left: 39px;
+    top: 10px;
+
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;    
+    
+    color: #6D594A;
+}
+
+.descriptionP {
+    position: absolute;
+    width: 551px;
+    height: 314px;
+    left: 40px;
+    top: 109px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    
+    color: #6D594A;
+}
+
+.spiritanimalBlock {
+    position: absolute;
+    width: 403px;
+    height: 472px;
+    left: 780px;
+    top: 31px;
+
+    background: #FFF7E1;
+}
+
+.spiritanimalH2{
+    position: absolute;
+    width: 226px;
+    height: 106px;
+    left: 89px;
+    top: 10px;
+
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #6D594A;
+}
+
+.animalAside {
+    position: absolute;
+    width: 263px;
+    height: 252px;
+    left: 70px;
+    top: 161px;
+}
+
+.animalPre {
+    font-size: 9px;
+    font-weight: bolder;
+    color: #6D594A;
+}
+
+.positiveBlock{
+    position: absolute;
+    width: 560px;
+    height: 409px;
+    left: 23px;
+    top: 563px;
+
+    background: #FFF7E1;
+}
+
+.positiveH2{
+    position: absolute;
+    width: 497px;
+    height: 46px;
+    left: 39px;
+    top: 10px;
+    
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #6D594A;
+}
+
+.positiveUl {
+    position: absolute;
+    width: 488px;
+    height: 260px;
+    left: 36px;
+    top: 109px;
+
+}
+
+.negativeBlock {
+    position: absolute;
+    width: 559px;
+    height: 409px;
+    left: 624px;
+    top: 563px;
+
+    background: #FFF7E1;
+}
+.negativeH2{
+    position: absolute;
+    width: 495px;
+    height: 46px;
+    left: 40px;
+    top: 10px;
+    
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #6D594A;
+}
+
+.negativeUl {
+    position: absolute;
+    width: 488px;
+    height: 260px;
+    left: 36px;
+    top: 109px;
+}
+
+li {
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    
+    color: #6D594A;
+}
