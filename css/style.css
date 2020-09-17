@@ -3,7 +3,7 @@
 
 body {
     position: relative;
-    width: auto;
+    width: 100%;
     height: 2672px;
 
     background-color: #CBC7A4;
@@ -11,7 +11,7 @@ body {
 
 header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 414px;
     left: 0px;
     top: 37px;
@@ -19,7 +19,7 @@ header {
 
 .headerSection {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 374px;
     left: 0px;
     top: 20px;
@@ -260,6 +260,7 @@ main{
     height: 260px;
     left: 36px;
     top: 109px;
+
 }
 
 li {
