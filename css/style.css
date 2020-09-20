@@ -1,9 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Infant:wght@700&family=Playfair+Display&display=swap');
 
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 
 body {
     position: relative;
-    width: 100%;
+    width: 1440px;
     height: 2672px;
 
     background-color: #CBC7A4;
@@ -11,7 +74,7 @@ body {
 
 header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 414px;
     left: 0px;
     top: 37px;
@@ -19,7 +82,7 @@ header {
 
 .headerSection {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 374px;
     left: 0px;
     top: 20px;
@@ -40,7 +103,7 @@ header {
     width: 467px;
     height: 55px;
     left: 641px;
-    top: 35px;
+    top: 70px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -126,7 +189,7 @@ main{
     width: 392px;
     height: 46px;
     left: 39px;
-    top: 10px;
+    top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -168,7 +231,7 @@ main{
     width: 226px;
     height: 106px;
     left: 89px;
-    top: 10px;
+    top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -209,7 +272,7 @@ main{
     width: 497px;
     height: 46px;
     left: 39px;
-    top: 10px;
+    top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -243,7 +306,7 @@ main{
     width: 495px;
     height: 46px;
     left: 40px;
-    top: 10px;
+    top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -289,7 +352,7 @@ li {
     width: 497px;
     height: 49.25px;
     left: 39px;
-    top: 10px;
+    top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -323,7 +386,7 @@ li {
     width: 497px;
     height: 49.25px;
     left: 39px;
-    top: 10px;
+    top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -345,7 +408,7 @@ li {
 
 footer{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 98px;
     left: 0px;
     top: 2672px;
@@ -358,7 +421,7 @@ footer{
     width: 286px;
     height: 27px;
     left: 577px;
-    top: 10px;
+    top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
