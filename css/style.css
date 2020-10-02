@@ -75,27 +75,18 @@ body {
 header {
     position: absolute;
     width: 1440px;
-    height: 414px;
-    left: 0px;
-    top: 37px;
-}
-
-.headerSection {
-    position: absolute;
-    width: 1440px;
     height: 374px;
-    left: 0px;
-    top: 20px;
+    margin-left: 0px;
+    margin-top: 57px;
 
     background: #FFF7E1;
 }
 
 .icon {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 288px;
-    top: 37px;
+    width: 588px;
+    height: 337px;
+    padding-left: 288px;
+    padding-top: 37px;
 }
 
 .headerH1 {
@@ -170,26 +161,25 @@ main{
     position: absolute;
     width: 1208px;
     height: 2179px;
-    left: 117px;
-    top: 460px;
+    margin-left: 117px;
+    margin-top: 460px;
 }
 
 .descriptionBlock {
     position: absolute;
     width: 716px;
     height: 472px;
-    left: 23px;
-    top: 31px;
+    margin-left: 23px;
+    margin-top: 31px;
 
     background: #FFF7E1;
 }
 
 .descriptionH2 {
-    position: absolute;
-    width: 392px;
-    height: 46px;
-    left: 39px;
-    top: 40px;
+    width: 431px;
+    height: 86px;
+    padding-left: 39px;
+    padding-top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -201,11 +191,10 @@ main{
 }
 
 .descriptionP {
-    position: absolute;
-    width: 551px;
-    height: 314px;
-    left: 40px;
-    top: 109px;
+    width: 591px;
+    height: 339px;
+    padding-left: 40px;
+    padding-top: 25px;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -220,18 +209,17 @@ main{
     position: absolute;
     width: 403px;
     height: 472px;
-    left: 780px;
-    top: 31px;
+    margin-left: 780px;
+    margin-top: 31px;
 
     background: #FFF7E1;
 }
 
 .spiritanimalH2{
-    position: absolute;
-    width: 226px;
-    height: 106px;
-    left: 89px;
-    top: 40px;
+    width: 315px;
+    height: 146px;
+    padding-left: 89px;
+    padding-top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -244,11 +232,10 @@ main{
 }
 
 .animalAside {
-    position: absolute;
     width: 263px;
-    height: 252px;
-    left: 70px;
-    top: 161px;
+    height: 262px;
+    padding-left: 70px;
+    padding-top: 10px;
 }
 
 .animalPre {
@@ -261,18 +248,17 @@ main{
     position: absolute;
     width: 560px;
     height: 409px;
-    left: 23px;
-    top: 563px;
+    margin-left: 23px;
+    margin-top: 563px;
 
     background: #FFF7E1;
 }
 
 .positiveH2{
-    position: absolute;
-    width: 497px;
-    height: 46px;
-    left: 39px;
-    top: 40px;
+    width: 536px;
+    height: 86px;
+    padding-left: 39px;
+    padding-top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -284,29 +270,26 @@ main{
 }
 
 .positiveUl {
-    position: absolute;
     width: 488px;
-    height: 260px;
-    left: 36px;
-    top: 109px;
-
+    height: 290px;
+    padding-left: 80px;
+    padding-top: 30px;
 }
 
 .negativeBlock {
     position: absolute;
     width: 559px;
     height: 409px;
-    left: 624px;
-    top: 563px;
+    margin-left: 624px;
+    margin-top: 563px;
 
     background: #FFF7E1;
 }
 .negativeH2{
-    position: absolute;
-    width: 495px;
-    height: 46px;
-    left: 40px;
-    top: 40px;
+    width: 535px;
+    height: 86px;
+    padding-left: 40px;
+    padding-top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -318,11 +301,10 @@ main{
 }
 
 .negativeUl {
-    position: absolute;
     width: 488px;
-    height: 260px;
-    left: 36px;
-    top: 109px;
+    height: 290px;
+    padding-left: 80px;
+    padding-top: 30px;
 
 }
 
@@ -341,18 +323,17 @@ li {
     position: absolute;
     width: 1160px;
     height: 530px;
-    left: 23px;
-    top: 1032px;
+    margin-left: 23px;
+    margin-top: 1032px;
 
     background: #FFF7E1;
 }
 
 .website1H2{
-    position: absolute;
-    width: 497px;
-    height: 49.25px;
-    left: 39px;
-    top: 40px;
+    width: 536px;
+    height: 89.25px;
+    padding-left: 39px;
+    padding-top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -367,26 +348,25 @@ li {
     position: absolute;
     width: 563px;
     height: 356px;
-    left: 298px;
-    top: 112px;
+    margin-left: 298px;
+    margin-top: 40px;
 }
 
 .websiteBlock2{
     position: absolute;
     width: 1160px;
     height: 530px;
-    left: 23px;
-    top: 1622px;
+    margin-left: 23px;
+    margin-top: 1622px;
 
     background: #FFF7E1;
 }
 
 .website2H2{
-    position: absolute;
-    width: 497px;
-    height: 49.25px;
-    left: 39px;
-    top: 40px;
+    width: 536px;
+    height: 89.25px;
+    padding-left: 39px;
+    padding-top: 40px;
     
     font-family: 'Alice', serif;
     font-style: normal;
@@ -402,26 +382,25 @@ li {
     position: absolute;
     width: 758px;
     height: 368px;
-    left: 201px;
-    top: 112px;
+    margin-left: 201px;
+    margin-top: 40px;
 }
 
 footer{
     position: absolute;
     width: 1440px;
     height: 98px;
-    left: 0px;
-    top: 2672px;
+    margin-left: 0px;
+    margin-top: 2672px;
 
     background: #6D594A;
 }
 
 .footerP {
-    position: absolute;
-    width: 286px;
-    height: 27px;
-    left: 577px;
-    top: 40px;
+    width: 863px;
+    height: 67px;
+    padding-left: 577px;
+    padding-top: 40px;
 
     font-family: 'Alice', serif;
     font-style: normal;
