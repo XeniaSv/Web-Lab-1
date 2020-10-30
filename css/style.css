@@ -161,7 +161,8 @@ header {
 }
 
 main{
-    float: left;
+    display: flex;
+    justify-content: left;
     width: 1208px;
     height: 2179px;
     margin-left: 117px;
@@ -169,10 +170,8 @@ main{
 }
 
 .descriptionBlock {
-    position: absolute;
     width: 716px;
     height: 472px;
-    margin-left: 23px;
     margin-top: 31px;
 
     background: #FFF7E1;
@@ -209,10 +208,9 @@ main{
 }
 
 .spiritanimalBlock {
-    position: absolute;
     width: 403px;
     height: 472px;
-    margin-left: 780px;
+    margin-left: 80px;
     margin-top: 31px;
 
     background: #FFF7E1;
@@ -248,10 +246,9 @@ main{
 }
 
 .positiveBlock{
-    position: absolute;
     width: 560px;
     height: 409px;
-    margin-left: 23px;
+    margin-left: -1200px;
     margin-top: 563px;
 
     background: #FFF7E1;
@@ -283,11 +280,12 @@ main{
     position: absolute;
     width: 559px;
     height: 409px;
-    margin-left: 624px;
+    margin-left: 640px;
     margin-top: 563px;
 
     background: #FFF7E1;
 }
+
 .negativeH2{
     width: 535px;
     height: 86px;
@@ -323,10 +321,9 @@ li {
 }
 
 .websiteBlock1 {
-    position: absolute;
     width: 1160px;
     height: 530px;
-    margin-left: 23px;
+    margin-left: -45%;
     margin-top: 1032px;
 
     background: #FFF7E1;
@@ -356,10 +353,9 @@ li {
 }
 
 .websiteBlock2{
-    position: absolute;
     width: 1160px;
     height: 530px;
-    margin-left: 23px;
+    margin-left: -96%;
     margin-top: 1622px;
 
     background: #FFF7E1;
