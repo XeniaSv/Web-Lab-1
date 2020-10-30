@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 /* Убираем внешние отступы */
 body,
 h1,
@@ -65,7 +66,6 @@ select {
 }
 
 body {
-    position: relative;
     width: 1440px;
     height: 2672px;
 
@@ -73,7 +73,7 @@ body {
 }
 
 header {
-    position: absolute;
+    float: left;
     width: 1440px;
     height: 374px;
     margin-left: 0px;
@@ -94,7 +94,7 @@ header {
     width: 467px;
     height: 55px;
     left: 641px;
-    top: 70px;
+    top: 90px;
 
     font-family: 'Alice', serif;
     font-style: normal;
@@ -110,7 +110,7 @@ header {
     width: 573px;
     height: 68px;
     left: 588px;
-    top: 269px;
+    top: 320px;
 
     font-family: 'Cormorant Infant', serif;
     font-style: normal;
@@ -123,46 +123,49 @@ header {
 }
 
 .headerNav {
-    position: absolute;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
     width: 403px;
     height: 70px;
-    left: 673px;
-    top: 164px;
+    margin-left: 47%;
+    margin-top: -13%;
 }
 
-.iconGmail {
-    position: absolute;
+#Gmail {
     width: 70px;
     height: 70px;
+
+    background-image: url(../resources/Gmail.svg);
 }
 
-.iconGithub {
-    position: absolute;
+#GitHub {
     width: 70px;
     height: 70px;
-    left: 110px;
+
+    background-image: url(../resources/Github.svg);
 }
 
-.iconVk {
-    position: absolute;
+#VK {
     width: 70px;
     height: 70px;
-    left: 220px;
+
+    background-image: url(../resources/Vk.svg);
 }
 
-.iconTelegram {
-    position: absolute;
+#TG {
     width: 70px;
     height: 70px;
-    left: 330px;    
+
+    background-image: url(../resources/Telegram.svg);
 }
 
 main{
-    position: absolute;
+    float: left;
     width: 1208px;
     height: 2179px;
     margin-left: 117px;
-    margin-top: 460px;
+    margin-top: 100px;
 }
 
 .descriptionBlock {
@@ -387,11 +390,11 @@ li {
 }
 
 footer{
-    position: absolute;
+    float: left;
     width: 1440px;
     height: 98px;
     margin-left: 0px;
-    margin-top: 2672px;
+    margin-top: 100px;
 
     background: #6D594A;
 }
