@@ -162,7 +162,7 @@ header {
 
 main{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     width: 1208px;
     height: 2179px;
     margin-left: 117px;
