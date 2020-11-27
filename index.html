@@ -8,11 +8,12 @@
         <meta name="keywords" content="Веб-дизайн,Ксения,портфолио">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/Lab5.js"></script>
+        <script src="js/Lab6.js"></script>
     </head>
 
     <body>
         <header>
-            <img src="resources/Icon.png" alt="Icon" class="icon", onclick="countTags()">
+            <img src="resources/Icon.png" alt="Icon" class="icon">
             <h1 class="headerH1">
                 Ксения Савельичева
             </h1>
@@ -47,7 +48,7 @@
                     Тотемное животное
                 </h2>
                 <aside class="animalAside">
-                    <pre class="animalPre">
+                    <pre class="animalPre",  onclick="countTags()">
                 .--.
                 _______             .-"  .'
         .---u"""       """"---._  ."    %
@@ -115,6 +116,20 @@
             <p class="footerP">
                 Made by Xenia Savelicheva
             </p>
+            <button id="btn">Contats</button>
+
+            <div id="modal" class="popUp">
+                <nav class="popUpNav">
+                    <span id="close">&times;</span>
+                    <a id="Gmail" href="mailto:savelicheva123@gmail.com"></a>
+
+                    <a id="GitHub" href="https://github.com/XeniaSv"></a>
+
+                    <a id="VK" href="https://vk.com/ksusha127"></a>
+
+                    <a id="TG" href="https://t.me/XeniiaSv"></a>
+                </nav>
+            </div>
         </footer>
     </body>
 
