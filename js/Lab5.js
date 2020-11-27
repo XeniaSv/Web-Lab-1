@@ -55,13 +55,13 @@ console.log(quickSort(array))
 
 let countTags = function(){
     let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
-    let countDict = new Map
+    let countDict = []
 
     tags.forEach(tag => {
-        if (!countDict.has(tag)){
-            countDict.set(tag, 0)
+        if (countDict[tag] == undefined){
+            countDict[tag] = 0
         }
-        countDict.set(tag, countDict.get(tag) + 1)
+        countDict[tag] += 1
     });
 
     console.log(countDict)
