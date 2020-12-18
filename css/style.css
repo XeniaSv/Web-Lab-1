@@ -429,7 +429,7 @@ footer{
     background-color: #6D594A;
 }
 
-#close {
+.close {
     color: #CBC7A4;
     float: right;
     font-size: 30px;
@@ -443,4 +443,62 @@ footer{
     width: 403px;
     height: 70px;
     margin: 3%;
+}
+
+.messanger {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 0%;
+    right: 0%;
+    width: 30%;
+    height: 75%;
+    overflow: auto;
+    background-color: #6D594A;
+}
+
+#messages {
+    background-color: #CBC7A4;
+    overflow: auto;
+    height: 90%;
+    width: 92%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#msgArea {
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 63%;
+}
+
+.userMessage {
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #6D594A;
+}
+
+.botMessage {
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #6D594A;
+}
+
+#btnChat {
+    position: fixed;
+    display: block;
+    background-image: url("../resources/Chat.png");
+    
+    width: 70px;
+    height: 70px;
+    bottom: 0%;
+    right: 0%;
 }

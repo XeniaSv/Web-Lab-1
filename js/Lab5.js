@@ -2,7 +2,7 @@ let array = Array.from({length: 1000}, () => Math.floor(Math.random() * 1000))
 console.log(array)
 
 let min = function(array) {
-    min = 100000000
+    min = Number.MAX_SAFE_INTEGER
     for (let i = 0; i < array.length; i++){
         if (array[i] <= min)
             min = array[i]
@@ -11,7 +11,7 @@ let min = function(array) {
 }
 
 let max = function(array) {
-    max = -1
+    max = Number.MIN_SAFE_INTEGER
     for (let i = 0; i < array.length; i++){
         if (array[i] >= max)
             max = array[i]
@@ -55,7 +55,7 @@ console.log(quickSort(array))
 
 let countTags = function(){
     let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
-    let countDict = []
+    let countDict = {}
 
     tags.forEach(tag => {
         if (countDict[tag] == undefined){
